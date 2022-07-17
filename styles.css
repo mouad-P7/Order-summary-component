@@ -1,0 +1,119 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --card-width: 325px;
+    --card-height: 550px;
+    --card-border: 20px;
+    --img-height: 155px;
+    --button-border: 10px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--pale-blue);
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: white;
+    border-radius: var(--card-border);
+    width: var(--card-width);
+    height: var(--card-height);
+}
+.music-img {
+    border-top-left-radius: var(--card-border);
+    border-top-right-radius: var(--card-border);
+    width: 100%;
+    height: var(--img-height);
+}
+.flex-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(var(--card-height) - var(--img-height) - 5px);
+    padding: 25px;
+}
+h1, h2, p, a, button {
+    text-align: center;
+    font-family: 'Red Hat Display';
+    letter-spacing: 0.9px;
+}
+p {
+    color: var(--desaturated-blue);
+    font-size: 14.2px;
+    font-weight: 600;
+    line-height: 22px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+}
+p.description {
+    margin-top: -10px;
+}
+.flex-offer {
+    background-color: var(--very-pale-blue);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    position: relative;
+}
+.music-logo {
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+.annual-plan {
+    position: relative;
+    bottom: 18%;
+    right: 4%;
+}
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+p.price {}
+a {
+    color: var(--bright-blue);
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    right: 5%;
+    bottom: 5%;
+}
+button.payment {
+    background-color: var(--bright-blue);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    height: 45px;
+    width: 100%;
+    box-shadow: 0px 1px 18px var(--desaturated-blue);
+}
+button.cancel {
+    border: none;
+    background-color: white;
+    color: var(--desaturated-blue);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+
+
+
+
