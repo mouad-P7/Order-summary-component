@@ -4,10 +4,10 @@
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
-    --card-width: 390px;
-    --card-height: 665px;
+    --card-width: 410px;
+    --card-height: 680px;
     --card-border-radius: 20px;
-    --img-height: 190px;
+    --img-height: 195px;
     --button-border: 10px;
 }
 * {
